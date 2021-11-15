@@ -67,8 +67,15 @@
 }
 
 
-.disabled {
+.addDisabled {
     border-color: grey !important;
     border-left: 1px solid white !important;
     color: grey !important;
+    cursor: not-allowed;
+}
+.minusDisabled {
+    border-color: grey !important;
+    border-right: 1px solid white !important;
+    color: grey !important;
+    cursor: not-allowed;
 }
